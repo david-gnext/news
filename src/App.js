@@ -2,17 +2,25 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header'
-import Menu from './components/menu'
+import Show from './components/show';
+import Menu from './components/menu';
 
+import { Switch, Route } from 'react-router-dom'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Header/>
         <Menu/>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <main>
+        <Switch>
+          <Route path='/:string' component={Show}/>
+        </Switch>
+        </main>
+
+        <footer>
+          Your copyright message
+        </footer>
       </div>
     );
   }
