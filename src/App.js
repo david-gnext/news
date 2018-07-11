@@ -9,6 +9,9 @@ import Home from './components/home';
 import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
+  componentDidMount() {
+    window.M.AutoInit()
+  }
   render() {
     return (
       <div>
