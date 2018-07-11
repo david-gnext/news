@@ -18,3 +18,7 @@ body {
 .top-stories {
   font-family: 'Raleway', sans-serif;
 }
+/* font size 4rem */
+.f-4 {
+  font-size: 4rem !important;
+}

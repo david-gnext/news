@@ -27,7 +27,8 @@ class Menu extends React.Component {
               ))
             }
           </ul>
-          <a href="#" className="col m2 right-align">Logo</a>
+          <a href="#" className="col m2 right-align"><i className="material-icons f-4">fiber_new
+    </i></a>
         </div>
       </nav>
     )

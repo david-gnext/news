@@ -1,0 +1,6 @@
+.App-header {
+  height: inherit;
+}
+.App-header .row {
+  margin-bottom: 0;
+}
